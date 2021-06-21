@@ -157,20 +157,6 @@ NH2NO
 2 H u0 p0 c0 {1,S}
 3 X u0 p0 c0
 
-HNNH
-1 N u0 p1 c0 {2,D} {3,S}
-2 N u0 p1 c0 {1,D} {4,S}
-3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {2,S}
-
-[Pt]NN[Pt]
-1 N u0 p1 c0 {2,S} {3,S} {5,S}
-2 N u0 p1 c0 {1,S} {4,S} {6,S}
-3 H u0 p0 c0 {1,S}
-4 H u0 p0 c0 {2,S}
-5 X u0 p0 c0 {1,S}
-6 X u0 p0 c0 {2,S}
-
 N=N.[Pt]
 1 N u0 p1 c0 {2,D} {3,S}
 2 N u0 p1 c0 {1,D} {4,S}
@@ -199,90 +185,19 @@ N=O.[Pt]
 3 H u0 p0 c0 {2,S}
 4 X u0 p0 c0
 
-HN2OX
-1 O u0 p3 c-1 {2,S}
-2 N u0 p1 c0 {1,S} {3,S} {4,S}
-3 N u0 p0 c+1 {2,S} {5,T}
-4 H u0 p0 c0 {2,S}
-5 X u0 p0 c0 {3,T}
-
-NNOJJXX
-1 O u0 p3 c-1 {2,S}
-2 N u0 p1 c0 {1,S} {3,S} {4,S}
-3 N u0 p0 c+1 {2,S} {5,T}
-4 X u0 p0 c0 {2,S}
-5 X u0 p0 c0 {3,T}
-
-N2
-1 N u0 p1 c0 {2,T}
-2 N u0 p1 c0 {1,T}
-
-[Pt]N=N
-1 N u0 p1 c0 {2,D} {4,S}
-2 N u0 p1 c0 {1,D} {3,S}
-3 H u0 p0 c0 {2,S}
-4 X u0 p0 c0 {1,S}
-
 N2O
 1 O u0 p2 c0 {2,D}
 2 N u0 p0 c+1 {1,D} {3,D}
 3 N u0 p2 c-1 {2,D}
-
-HN2OX-2
-1 O u0 p2 c0 {2,S} {5,S}
-2 N u0 p0 c+1 {1,S} {3,D} {4,S}
-3 N u0 p2 c-1 {2,D}
-4 H u0 p0 c0 {2,S}
-5 X u0 p0 c0 {1,S}
-
-HN2OX-3
-1 O u0 p2 c0 {2,S} {4,S}
-2 N u0 p0 c+1 {1,S} {3,D} {5,S}
-3 N u0 p2 c-1 {2,D}
-4 H u0 p0 c0 {1,S}
-5 X u0 p0 c0 {2,S}
-
-HN2OX-4
-1 O u0 p3 c-1 {2,S}
-2 N u0 p0 c+1 {1,S} {3,D} {5,S}
-3 N u0 p1 c0 {2,D} {4,S}
-4 H u0 p0 c0 {3,S}
-5 X u0 p0 c0 {2,S}
-
-N2OXX
-1 O u0 p2 c0 {2,S} {5,S}
-2 N u0 p0 c+1 {1,S} {3,D} {4,S}
-3 N u0 p2 c-1 {2,D}
-4 X u0 p0 c0 {2,S}
-5 X u0 p0 c0 {1,S}
-
-N2X
-1 N u0 p0 c+1 {2,D} {3,D}
-2 N u0 p2 c-1 {1,D}
-3 X u0 p0 c0 {1,D}
-
-[Pt]N=N[Pt]
-1 N u0 p1 c0 {2,D} {3,S}
-2 N u0 p1 c0 {1,D} {4,S}
-3 X u0 p0 c0 {1,S}
-4 X u0 p0 c0 {2,S}
-
-[Pt]NN=[Pt]
-1 N u0 p1 c0 {2,S} {3,S} {4,S}
-2 N u0 p1 c0 {1,S} {5,D}
-3 H u0 p0 c0 {1,S}
-4 X u0 p0 c0 {1,S}
-5 X u0 p0 c0 {2,D}
 
 N#N.[Pt]
 1 N u0 p1 c0 {2,T}
 2 N u0 p1 c0 {1,T}
 3 X u0 p0 c0
 
-ON=N[Pt]
-1 O u0 p2 c0 {2,S} {4,S}
-2 N u0 p1 c0 {1,S} {3,D}
-3 N u0 p1 c0 {2,D} {5,S}
-4 H u0 p0 c0 {1,S}
-5 X u0 p0 c0 {3,S}
+[Pt]N=N
+1 N u0 p1 c0 {2,D} {4,S}
+2 N u0 p1 c0 {1,D} {3,S}
+3 H u0 p0 c0 {2,S}
+4 X u0 p0 c0 {1,S}
 
