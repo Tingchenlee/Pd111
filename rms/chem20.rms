@@ -690,7 +690,7 @@ Reactions:
   - NH3
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 2.05e+17
     Ea: 69472.8
     n: 0.0
     type: Arrhenius
@@ -703,7 +703,7 @@ Reactions:
   - NH3X
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 2.17e+17
     Ea: 85876.1
     n: 0.0
     type: Arrhenius
@@ -716,7 +716,7 @@ Reactions:
   - NH2_X
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 3.08e+17
     Ea: 133156.2
     n: 0.0
     type: Arrhenius
@@ -729,7 +729,7 @@ Reactions:
   - NH_X
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 1.93e+18
     Ea: 44385.4
     n: 0.0
     type: Arrhenius
@@ -742,7 +742,7 @@ Reactions:
   - NH3X
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 5.92e+17
     Ea: 7719.2
     n: 0.0
     type: Arrhenius
@@ -755,7 +755,7 @@ Reactions:
   - NH2_X
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 2.33e+17
     Ea: 46315.2
     n: 0.0
     type: Arrhenius
@@ -768,7 +768,7 @@ Reactions:
   - NH_X
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 1.22e+17
     Ea: 0.0
     n: 0.0
     type: Arrhenius
@@ -781,33 +781,21 @@ Reactions:
   - OHX
   type: ElementaryReaction
 - kinetics:
-    A: 1.0
-    Ea: 20262.9
-    n: 0.0
-    type: StickingCoefficient
-  products:
-  - H2O_X
-  radicalchange: 0
-  reactants:
-  - X
-  - H2O
-  type: ElementaryReaction
-- kinetics:
-    A: 1.0
+    A: 3.63e+20
     Ea: 208418.4
     n: 0.0
-    type: StickingCoefficient
+    type: Arrhenius
   products:
-  - NX
-  - NX
-  radicalchange: 0
-  reactants:
   - X
   - X
   - N2
+  radicalchange: 0
+  reactants:
+  - NX
+  - NX
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 3.28e+17
     Ea: 187190.6
     n: 0.0
     type: Arrhenius
@@ -820,7 +808,7 @@ Reactions:
   - NX
   type: ElementaryReaction
 - kinetics:
-    A: 6.55e+17
+    A: 2.65e+17
     Ea: 221927.0
     n: 0.0
     type: Arrhenius
@@ -832,7 +820,7 @@ Reactions:
   - NOX
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 1.7e+17
     Ea: 186225.7
     n: 0.0
     type: Arrhenius
@@ -845,7 +833,7 @@ Reactions:
   - NOX
   type: ElementaryReaction
 - kinetics:
-    A: 16900000000000.0
+    A: 1.43e+16
     Ea: 11578.8
     n: 0.0
     type: Arrhenius
@@ -857,7 +845,7 @@ Reactions:
   - N2O_X
   type: ElementaryReaction
 - kinetics:
-    A: 2.18e+19
+    A: 1.82e+16
     Ea: 104209.2
     n: 0.0
     type: Arrhenius
@@ -870,7 +858,7 @@ Reactions:
   - NH3X
   type: ElementaryReaction
 - kinetics:
-    A: 2.44e+19
+    A: 2.29e+17
     Ea: 85876.1
     n: 0.0
     type: Arrhenius
@@ -883,7 +871,7 @@ Reactions:
   - NH2_X
   type: ElementaryReaction
 - kinetics:
-    A: 2.44e+19
+    A: 2.84e+17
     Ea: 113858.2
     n: 0.0
     type: Arrhenius
@@ -896,7 +884,7 @@ Reactions:
   - NH_X
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 2.5e+17
     Ea: 97454.9
     n: 0.0
     type: Arrhenius
@@ -909,7 +897,7 @@ Reactions:
   - H_X
   type: ElementaryReaction
 - kinetics:
-    A: 2.47e+17
+    A: 3.94e+17
     Ea: 64648.3
     n: 0.0
     type: Arrhenius
@@ -920,6 +908,18 @@ Reactions:
   reactants:
   - H_X
   - OHX
+  type: ElementaryReaction
+- kinetics:
+    A: 0.75
+    Ea: 0.0
+    n: 0.0
+    type: StickingCoefficient
+  products:
+  - H2O_X
+  radicalchange: 0
+  reactants:
+  - X
+  - H2O
   type: ElementaryReaction
 - kinetics:
     A: 4949006648854429.0

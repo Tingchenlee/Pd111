@@ -20,4 +20,55 @@ N2(4)               1      97.530     3.621     0.000     1.760     4.000    ! G
 NO(5)               1      97.530     3.621     0.000     1.760     4.000    ! GRI-Mech
 NH3(6)              2     481.001     2.920     1.470     0.000    10.000    ! GRI-Mech
 N2O(7)              1     232.401     3.828     0.000     0.000     1.000    ! GRI-Mech
+NH2(D)(23)          2      80.000     2.650     0.000     2.260     4.000    ! GRI-Mech
+H(24)               0     145.000     2.050     0.000     0.000     0.000    ! GRI-Mech
+H2(13)              1      38.000     2.920     0.000     0.790   280.000    ! GRI-Mech
+! H2X(31)             None
+! H3NOX(28)           None
+NH2NH2(25)          2     205.000     4.230     0.000     4.260     1.500    ! GRI-Mech
+! H4N2X(26)           None
+! H2NOX(33)           None
+NH2OH(38)           2     116.700     3.492     0.000     0.000     1.000    ! NOx2018
+! H3N2X(27)           None
+! H2NOX(39)           None
+! HNOX(35)            None
+NH2OJ(54)           2     116.700     3.492     0.000     0.000     1.000    ! GRI-Mech
+! HNOX(45)            None
+HNOHJ(44)           2     116.700     3.492     0.000     0.000     1.000    ! GRI-Mech
+! H2N2X(53)           None
+NH2NHJ(52)          2     200.001     3.900     0.000     0.000     1.000    ! GRI-Mech
+! H2N2X(32)           None
+HNO(61)             2     116.700     3.492     0.000     0.000     1.000    ! GRI-Mech
+! H4N2OX(40)          None
+NON(55)             2     237.100     5.118     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+! H4N2OX(41)          None
+! NH2OOH(56)          None
+HNNH(77)            2      71.400     3.798     0.000     0.000     1.000    ! GRI-Mech
+! HN2X(78)            None
+! H3N2OX(62)          None
+! NH2NO(30)           None
+NNO(46)             2     237.100     5.118     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+! HNOHOH(47)          None
+! H3N2OX(43)          None
 ! N2X(36)             None
+! H2NO2X(67)          None
+! HONO(102)           None
+! H3N2OX(42)          None
+HNOHOH(95)          2     237.100     5.118     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+H2NO2(101)          2     237.100     5.118     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+! H3N2OX(71)          None
+H3N2O(88)           2     237.100     5.118     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+! H2NO2X(73)          None
+! H2NO2X(81)          None
+! O2(S)(111)          None
+O2(S)(112)          1     223.367     4.347     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=290.09 K, Pc=51.31 bar (from Joback method)
+! HO2X(80)            None
+HO2(115)            2     107.400     3.458     0.000     0.000     1.000    ! GRI-Mech
+! H2O2X(84)           None
+HOOH(116)           2     107.400     3.458     0.000     0.000     3.800    ! GRI-Mech
+NH2OOH(79)          2     237.100     5.118     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+! H2NO2X(68)          None
+H2NO2(110)          2     237.100     5.118     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
+! NO2JX(104)          None
+NNHJ(86)            2      71.400     3.798     0.000     0.000     1.000    ! GRI-Mech
+NH2NO(89)           2     237.100     5.118     0.000     0.000     0.000    ! Epsilon & sigma estimated with fixed Lennard Jones Parameters. This is the fallback method! Try improving transport databases!
